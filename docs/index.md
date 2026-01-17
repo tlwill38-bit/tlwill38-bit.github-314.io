@@ -20,7 +20,7 @@ for<br>
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
+* Update this needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
 * To view the Team project Datasheet click [team report.](https://embedded-systems-design.github.io/template_report/)
 
 ### My Contribution
