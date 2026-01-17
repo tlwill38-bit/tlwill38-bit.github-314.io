@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">Terry William's Datasheet</font><br>
+<font size= "6">Terry Williams's Datasheet</font><br>
 as part of<br>
 <font size= "8"> EGR 314 Project</font><br>
 for<br>
