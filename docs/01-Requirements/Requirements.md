@@ -14,8 +14,9 @@ The table below shows the minimum acceptable performance levels, target values, 
 | Surface mounted, 3.3V switching power regulatore | 3.2 Volts | 3.3 Volts | No |
 | Surface mounted microcontroller | 1 PIC or ESP | 8-bit PIC | No |
 | Wireless Communication | Able to send or receive a Wi-Fi data | Send and receive Wi-Fi Data to MQTT | Yes |
-|*Rest are items your modules needs to support the task you are covering for the team's device.* | --- | --- | **NO** |
-
+| Resistivity Sensor| Sensing Resistance | Accurate Readings for diffferent Types of dirt compositions | No |
+| ultrasonic Sensor | Able to detect objects | Rover avoids obstacles | Yes |
+| Ir distance Sensor | Able to detect distance | Rover can read distance | Yes |
 
 <!-- | Requirements  | Description | Feature | Target Measurement | Stretch Goal | 
 |----|------|------|---|---|
