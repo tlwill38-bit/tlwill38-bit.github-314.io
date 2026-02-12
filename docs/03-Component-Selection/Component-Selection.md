@@ -62,6 +62,7 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
 
 ### Style 1
 
+
 > This is the example found in the assignment, uses more html
 
 *Table 1: Example component selection*
