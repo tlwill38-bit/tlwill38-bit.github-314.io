@@ -4,10 +4,9 @@ title: Module Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support a surface mounted temperature sensor 
 
-
-![schematic](Screenshot.png){style width:"350" height:"300;"}
+![schematic](SCH.png){style width:"350" height:"300;"}
 **Figure ##:** Showing a example schematic.
 
 
