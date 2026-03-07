@@ -6,7 +6,7 @@ title: Module Schematic
 
 This schematic is design to support a surface mounted temperature sensor 
 
-![schematic](SCH.png){style width:"350" height:"300;"}
+![schematic](Schematic.jpg){style width:"350" height:"300;"}
 **Figure ##:** Showing a example schematic.
 
 
