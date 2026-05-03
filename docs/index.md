@@ -43,4 +43,13 @@ To review the details of the Project and Hall effect Sensor subsystem:
 
  ["PCB"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
 
+ ["Power Budget"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+
+ ["API"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+
+ ["HardWare V2"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+
+  ["Reflection"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+
+
   
