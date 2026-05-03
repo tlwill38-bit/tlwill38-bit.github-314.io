@@ -15,7 +15,7 @@
         <link rel="prev" href="../../08-API/API/">
       
       
-        <link rel="next" href="../../Appendix/">
+        <link rel="next" href="../../10-Reflection/Reflection/">
       
       
       <link rel="icon" href="../../static/logo314.png">
@@ -26,7 +26,7 @@
 
     
       
-        <title>Hardware - EGR 314 Terry's Data Sheet</title>
+        <title>HardWare 2.0 - EGR 314 Terry's Data Sheet</title>
       
     
     
@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#improved-hall-effect-sensor-integration" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -120,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hardware
+              HardWare 2.0
             
           </span>
         </div>
@@ -334,26 +339,6 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../07-Reflection/Reflection/" class="md-tabs__link">
-          
-  
-    
-  
-  07 Reflection
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
         <a href="../../08-API/API/" class="md-tabs__link">
           
   
@@ -382,6 +367,26 @@
     
   
   09 HardwareV2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../10-Reflection/Reflection/" class="md-tabs__link">
+          
+  
+    
+  
+  10 Reflection
 
         </a>
       </li>
@@ -782,52 +787,6 @@
         
   
   
-    <a href="../../07-Reflection/Reflection/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    07 Reflection
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-      
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
     <a href="../../08-API/API/" class="md-nav__link">
       
   
@@ -875,10 +834,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked="">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked="">
         
           
-          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -889,8 +848,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_10">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             09 HardwareV2
           </label>
@@ -910,15 +869,79 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    HardWare 2.0
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Hardware
+    HardWare 2.0
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#improved-hall-effect-sensor-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Improved Hall Effect Sensor Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#improved-microcontroller-pin-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Improved Microcontroller Pin Planning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dedicated-test-points-and-jumpers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dedicated Test Points and Jumpers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -927,6 +950,52 @@
             
           </ul>
         </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../10-Reflection/Reflection/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    10 Reflection
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
       
     </li>
   
@@ -1006,6 +1075,50 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#improved-hall-effect-sensor-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Improved Hall Effect Sensor Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#improved-microcontroller-pin-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Improved Microcontroller Pin Planning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dedicated-test-points-and-jumpers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dedicated Test Points and Jumpers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1027,7 +1140,16 @@
   
 
 
-  <h1>Hardware</h1>
+  <h1>HardWare 2.0</h1>
+
+<h2 id="improved-hall-effect-sensor-integration">Improved Hall Effect Sensor Integration</h2>
+<p>In the first version, the Hall effect sensor required breakout boards because of routing limitations and time pressure. This added extra wiring and introduced noise that affected readings. In Version 2.0, the sensor would be fully integrated onto the PCB using a surface mount package. The design would include proper filtering, a clean analog ground path, and careful routing to keep the sensor clear. This would create more stable measurements and reduce the chance of mechanical failure.</p>
+<h2 id="improved-microcontroller-pin-planning">Improved Microcontroller Pin Planning</h2>
+<p>The first version required several late changes because some pins had restrictions that were not obvious at the start. Version 2.0 would begin with a clear pin planning process that accounts for analog inputs, UART communication, LED indicators, and debugging needs. This would prevent conflicts and reduce the need for last minute rewiring or code changes.</p>
+<h2 id="dedicated-test-points-and-jumpers">Dedicated Test Points and Jumpers</h2>
+<p>Debugging the first version was difficult because there were not enough test points. Version 2.0 would include labeled pads for power, communication lines, and sensor outputs. Jumper points would allow subsystems to be isolated during troubleshooting. This would make it easier to track down issues without removing components or cutting traces.</p>
+<h2 id="summary">Summary</h2>
+<p>Hardware Version 2.0 focuses on creating a more stable and maintainable design. By improving sensor integration, power distribution, microcontroller planning, and mechanical protection, the rover becomes more reliable and easier to work with. These changes directly support the rover’s mission by ensuring consistent Hall effect sensing, dependable communication, and smoother operation in underground environments.</p>
 
 
 
@@ -1035,7 +1157,8 @@
 
 
 
-
+  
+  
 
 
 
@@ -1082,13 +1205,13 @@
         
         
           
-          <a href="../../Appendix/" class="md-footer__link md-footer__link--next" aria-label="Next: Appendix - Main Page">
+          <a href="../../10-Reflection/Reflection/" class="md-footer__link md-footer__link--next" aria-label="Next: Reflection">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Appendix - Main Page
+                Reflection
               </div>
             </div>
             <div class="md-footer__button md-icon">
