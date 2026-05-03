@@ -416,6 +416,26 @@
     
     
       <li class="md-tabs__item">
+        <a href="../../11-Resources/Resources/" class="md-tabs__link">
+          
+  
+    
+  
+  11 Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
         <a href="../../Appendix/" class="md-tabs__link">
           
   
@@ -1008,6 +1028,52 @@
     
       
         
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../11-Resources/Resources/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    11 Resources
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
           
         
       
@@ -1095,7 +1161,44 @@
 
   <h1>API</h1>
 
-
+<p>All messages sent from this module follow the required framing format and use the correct team ID, sender ID, and receiver ID. The Hall effect subsystem uses the same message structure as the rest of the rover so that every module can interpret the data consistently.</p>
+<p>The Hall effect module sends magnetic field readings as a numeric payload. The value is converted into a string before transmission so it remains compatible with the class rules for valid characters. Each message includes the team ID at the beginning and the required end markers so the receiving module can verify that the message is complete.</p>
+<p>The Hall effect module supports two message types. The first is a periodic data message that sends the most recent magnetic field reading to the team. The second is a response message that is sent only when another module requests the current sensor value. Both message types use the same payload structure so the receiving module does not need separate parsing logic.</p>
+<table>
+<thead>
+<tr>
+<th>Message Type</th>
+<th>Full Message Format</th>
+<th>Payload Description</th>
+<th>Byte Count</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sensor Data</td>
+<td>AZTCvalueYB</td>
+<td>value is the current magnetic field reading as a string</td>
+<td>2 bytes for AZ + 2 bytes for TC + N bytes for value + 2 bytes for YB</td>
+<td>Sends the most recent Hall effect sensor reading</td>
+</tr>
+<tr>
+<td>Data Request</td>
+<td>AZTCREQYB</td>
+<td>REQ indicates a request for the current sensor value</td>
+<td>2 bytes for AZ + 2 bytes for TC + 3 bytes for REQ + 2 bytes for YB</td>
+<td>Requests the current Hall effect sensor reading</td>
+</tr>
+<tr>
+<td>Response</td>
+<td>AZTCvalueYB</td>
+<td>value is the requested magnetic field reading</td>
+<td>2 bytes for AZ + 2 bytes for TC + N bytes for value + 2 bytes for YB</td>
+<td>Returns the sensor value after receiving a request</td>
+</tr>
+</tbody>
+</table>
+<p>The API ensures that the Hall effect subsystem communicates correctly with the motor controller, the wireless module, and the human interface. It also ensures that the module meets the class requirements for message formatting, ID usage, and payload structure. This final version reflects the completed design and the way the sensor operates within the rover.</p>
 
 
 
