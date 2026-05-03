@@ -29,4 +29,18 @@ My primary responsibility is the development and integration of the Hall effect 
 
 My contribution includes the electrical integration of the Hall effect sensor, the firmware required to read and process magnetic field measurements, and the communication logic that sends this data to the rest of the rover through the team’s wireless messaging protocol. This work directly supports the rover’s ability to navigate subsurface environments, determine sampling locations, and operate safely and efficiently. Readers interested in sensing, data acquisition, or subsystem communication will find the details of my module particularly relevant.
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
+To review the details of the Project and Hall effect Sensor subsystem: 
+
+ ["BOM"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/04-BOM/BOM/) section of the datasheet.
+
+ ["Requirements"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/01-Requirements/Requirements/) section of the datasheet.
+
+ ["Block Diagram"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/02-Block-Diagram/Block-Diagram/) section of the datasheet.
+
+ ["Component Selection"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/03-Component-Selection/Component-Selection/) section of the datasheet.
+
+ ["Schematic"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/05-Schematic/schematic/) section of the datasheet.
+
+ ["PCB"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+
+  
