@@ -43,15 +43,15 @@ To review the details of the Project and Hall effect Sensor subsystem:
 
  ["PCB"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
 
- ["Power Budget"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+ ["Power Budget"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/07-Power-Budget/PB/) section of the datasheet.
 
- ["API"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+ ["API"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/08-API/API/) section of the datasheet.
 
- ["HardWare V2"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+ ["HardWare V2"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/09-HardwareV2/Hardware/) section of the datasheet.
 
-  ["Reflection"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+  ["Reflection"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/10-Reflection/Reflection/) section of the datasheet.
 
-["Resources"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/06-PCB/PCB/) section of the datasheet.
+["Resources"](https://tlwill38-bit.github.io/tlwill38-bit.github-314.io/11-Resources/Resources/) section of the datasheet.
 
 
   
