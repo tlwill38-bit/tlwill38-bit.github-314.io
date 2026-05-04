@@ -10,7 +10,7 @@ For this project we had a purchasing budget of $60 for various parts, The Bill o
 
 
 
-## Bill of Materials (Example as Image)
+## Bill of Materials
 ![](EGR314BOM.png){style width: "2000"}
 **Figure 01:**  Bill of Materials 
 
