@@ -9,5 +9,5 @@ This schematic is design to support a surface mounted Hall effect Sensor
 **Figure ##:** Showing the schematic with the Hall Effect Sensor.
 
 
-## Resouces
+## Resources
 The schematic as a PDF download is available [*here*](EGR314IndividualSystem(2).pdf), and the Zip folder of the project [*here*](EGR314IndividualSystem.zip).
