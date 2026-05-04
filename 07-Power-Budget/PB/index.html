@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -858,6 +863,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Power Budget
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -867,6 +883,50 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Budget
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1138,6 +1198,41 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Budget
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1161,7 +1256,14 @@
 
   <h1>Power Budget</h1>
 
-
+<h2 id="overview">Overview</h2>
+<p>The power budget for the rover confirms that the 3.3 V switching regulator and overall supply can comfortably support the final design. The PIC18F57Q43 microcontroller, AS5600 Hall effect sensor, wireless module, and supporting peripherals all draw well below the 1 A limit of the regulator, even under worst case assumptions. By estimating each subsystem’s current and then summing them with a safety margin, the total load remains within a safe operating range for both the regulator and the upstream supply. This shows that the rover can run all critical electronics simultaneously without overloading the power system or causing excessive voltage droop.</p>
+<h2 id="power-budget">Power Budget</h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PowerBudgetEGR314.png" data-desc-position="bottom"><img alt="Part1" src="../PowerBudgetEGR314.png"></a>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PowerBudgetEGR314P2.png" data-desc-position="bottom"><img alt="Part2" src="../PowerBudgetEGR314P2.png"></a></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The completed power budget demonstrates that the hardware design is electrically feasible and has reasonable margin for real operation. The Hall effect subsystem in particular adds only a small current overhead compared to the total capacity of the 3.3 V rail. With proper decoupling and layout, the regulator can deliver stable power to the microcontroller, sensor, and communication modules without approaching its maximum rating. Overall, the power budget supports the final design choices and confirms that no major changes are required for Version 2.0 from a current capacity standpoint.</p>
+<p>The Power Budget as a PDF download is available <a href="../EGR314-Power-Budget.pdf"><em>here</em></a>.</p>
 
 
 
